@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">PUBGM Assault Rifles Sistem Informasi</string>
+    <string name="assaultr_name">Assault Rifle</string>
+    <string name="name_received">Nama Diterima</string>
+    <string name="damage_received">Dmg Diterima</string>
+    <string name="range_received">Rng Diterima</string>
+    <string name="stabil_received">Stbl Diterima</string>
+    <string name="firert_received">Fire Diterima</string>
+    <string name="scope_received">Iron Sight (Default),\nRed Dot Sight,\nHolo Sight,\n2X, 3X, 4X, 6X</string>
+    <string name="muzzle_received">Muzzle Diterima</string>
+    <string name="magazine_received">Semua Magazine AR</string>
+    <string name="grip_received">Grip Diterima</string>
+    <string name="stock_received">Stock Diterima</string>
+    <string name="jumlaha_received">Jumlah Amunisi Diterima</string>
+    <string name="jenisa_received">Jenis Amunisi Diterima</string>
+    <string name="mode_received">Mode Tembak Diterima</string>
+    <string name="waktur_received">Waktu Reload Diterima</string>
+    <string name="profile">profile</string>
+    <string name="detail">Detail</string>
+    <string name="damage">Damage</string>
+    <string name="range">Range</string>
+    <string name="stabilty">Stabilty</string>
+    <string name="firing_rate">Firing Rate</string>
+    <string name="jumlah_amunisi">Jumlah\nAmunisi</string>
+    <string name="jenis_amunisi">Jenis\nAmunisi</string>
+    <string name="mode_tembak">Mode\nTembak</string>
+    <string name="waktu_reload">Waktu\nReload</string>
+    <string name="attachment">Attachment</string>
+    <string name="scope">Scope</string>
+    <string name="muzzle">Muzzle</string>
+    <string name="magazine">Magazine</string>
+    <string name="grip">Grip</string>
+    <string name="stock">Stock</string>
+    <string name="nama_profil">Valden Runtukahu \nJerald Imbar \nPaoli Subu \nJeremy Assa</string>
+    <string name="nama_kelompok">Kelompok Predator</string>
+    <string name="splashscreen_image">Splashscreen_Image</string>
+</resources>

@@ -1,0 +1,371 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.predator.tugasakhir.DetailActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@color/cardview_shadow_start_color"
+            android:scaleType="fitXY"
+            android:adjustViewBounds="true"
+            android:id="@+id/iv_image_received"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/detail"
+            android:gravity="center"
+            android:textSize="25sp"
+            android:background="#4D000000"
+            android:textColor="#000000"
+            android:textStyle="bold"
+            android:padding="5dp"/>
+
+        <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        >
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:gravity="center_horizontal"
+            android:background="#1D000000"
+            >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/damage"
+                android:textSize="14sp"
+                android:gravity="center_horizontal"
+                android:ems="6"
+                android:textColor="#000000"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="14sp"
+                android:text="@string/range"
+                android:gravity="center_horizontal"
+                android:ems="6"
+                android:textColor="#000000"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="14sp"
+                android:text="@string/stabilty"
+                android:gravity="center_horizontal"
+                android:ems="6"
+                android:textColor="#000000"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="14sp"
+                android:text="@string/firing_rate"
+                android:gravity="center_horizontal"
+                android:ems="6"
+                android:textColor="#000000"
+                android:textStyle="bold"/>
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:gravity="center_horizontal">
+
+            <TextView
+                android:id="@+id/tv_damage_received"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/damage_received"
+                android:textSize="14sp"
+                android:gravity="center_horizontal"
+                android:ems="6" />
+
+            <TextView
+                android:id="@+id/tv_range_received"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/range_received"
+                android:textSize="14sp"
+                android:gravity="center_horizontal"
+                android:ems="6"/>
+
+            <TextView
+                android:id="@+id/tv_stabil_received"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/stabil_received"
+                android:textSize="14sp"
+                android:gravity="center_horizontal"
+                android:ems="6"/>
+
+            <TextView
+                android:id="@+id/tv_firerate_received"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/firert_received"
+                android:textSize="14sp"
+                android:gravity="center_horizontal"
+                android:ems="6"/>
+
+        </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:gravity="center_horizontal"
+                android:background="#1D000000"
+                >
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/jumlah_amunisi"
+                    android:textSize="14sp"
+                    android:gravity="center_horizontal"
+                    android:ems="6"
+                    android:textColor="#000000"
+                    android:textStyle="bold"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="14sp"
+                    android:text="@string/jenis_amunisi"
+                    android:gravity="center_horizontal"
+                    android:ems="6"
+                    android:textColor="#000000"
+                    android:textStyle="bold"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="14sp"
+                    android:text="@string/mode_tembak"
+                    android:gravity="center_horizontal"
+                    android:ems="6"
+                    android:textColor="#000000"
+                    android:textStyle="bold"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="14sp"
+                    android:text="@string/waktu_reload"
+                    android:gravity="center_horizontal"
+                    android:ems="6"
+                    android:textColor="#000000"
+                    android:textStyle="bold"/>
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:gravity="center_horizontal">
+
+                <TextView
+                    android:id="@+id/tv_jumlaha_received"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/jumlaha_received"
+                    android:textSize="14sp"
+                    android:gravity="center_horizontal"
+                    android:ems="6" />
+
+                <TextView
+                    android:id="@+id/tv_jenisa_received"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/jenisa_received"
+                    android:textSize="14sp"
+                    android:gravity="center_horizontal"
+                    android:ems="6"/>
+
+                <TextView
+                    android:id="@+id/tv_mode_received"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/mode_received"
+                    android:textSize="14sp"
+                    android:gravity="center_horizontal"
+                    android:ems="6"/>
+
+                <TextView
+                    android:id="@+id/tv_waktur_received"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/waktur_received"
+                    android:textSize="14sp"
+                    android:gravity="center_horizontal"
+                    android:ems="6"/>
+
+            </TableRow>
+
+        </TableLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/attachment"
+            android:gravity="center"
+            android:textSize="20sp"
+            android:background="#4D000000"
+            android:textColor="#000000"
+            android:textStyle="bold"
+            android:padding="5dp"
+            />
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            >
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:gravity="center_horizontal"
+                android:background="#1D000000"
+                >
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/scope"
+                    android:textSize="14sp"
+                    android:gravity="center_horizontal"
+                    android:ems="5"
+                    android:textColor="#000000"
+                    android:textStyle="bold"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="14sp"
+                    android:text="@string/muzzle"
+                    android:gravity="center_horizontal"
+                    android:ems="5"
+                    android:textColor="#000000"
+                    android:textStyle="bold"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="14sp"
+                    android:text="@string/magazine"
+                    android:gravity="center_horizontal"
+                    android:ems="5"
+                    android:textColor="#000000"
+                    android:textStyle="bold"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="14sp"
+                    android:text="@string/grip"
+                    android:gravity="center_horizontal"
+                    android:ems="5"
+                    android:textColor="#000000"
+                    android:textStyle="bold"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="14sp"
+                    android:text="@string/stock"
+                    android:gravity="center_horizontal"
+                    android:ems="5"
+                    android:textColor="#000000"
+                    android:textStyle="bold"/>
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:gravity="center_horizontal">
+
+                <TextView
+                    android:id="@+id/tv_scope_received"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/scope_received"
+                    android:textSize="14sp"
+                    android:gravity="center_horizontal"
+                    android:ems="5" />
+
+                <TextView
+                    android:id="@+id/tv_muzzle_received"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/muzzle_received"
+                    android:textSize="14sp"
+                    android:gravity="center_horizontal"
+                    android:ems="5"/>
+
+                <TextView
+                    android:id="@+id/tv_magazine_received"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/magazine_received"
+                    android:textSize="14sp"
+                    android:gravity="center_horizontal"
+                    android:ems="5"/>
+
+                <TextView
+                    android:id="@+id/tv_grip_received"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/grip_received"
+                    android:textSize="14sp"
+                    android:gravity="center_horizontal"
+                    android:ems="5"/>
+
+                <TextView
+                    android:id="@+id/tv_stock_received"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/stock_received"
+                    android:textSize="14sp"
+                    android:gravity="center_horizontal"
+                    android:ems="5"/>
+
+
+            </TableRow>
+
+        </TableLayout>
+
+        <TextView
+            android:id="@+id/tv_name_received"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/name_received"
+            android:textSize="14sp"
+            android:gravity="center_horizontal"
+            android:ems="6"/>
+
+    </LinearLayout>
+
+</ScrollView>
